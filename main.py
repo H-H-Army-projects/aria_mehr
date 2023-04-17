@@ -4,7 +4,7 @@ from pyfiglet import figlet_format
 from translate import Translator
 
 
-system("cls")
+system("clear")
 
 print(f"""{f.BLUE}
 
@@ -44,7 +44,7 @@ print(f"""{f.BLUE}[{f.RED}1{f.BLUE}] Sites For Info of Hitler
 chose = str(input(f"{f.LIGHTBLACK_EX}set{f.RED} >{f.YELLOW} "))
 
 if chose == "1":
-    system("cls")
+    system("clear")
     print(f"""{f.RED}-------------------------------------
 {f.RED}Here I Have Some Sites For You :)   |
 -------------------------------------\n
@@ -69,7 +69,7 @@ if chose == "1":
 
 elif chose == "2":
     name = str(input(f"{f.LIGHTBLACK_EX}write a name{f.RED} >{f.YELLOW} "))
-    system("cls")
+    system("clear")
     font_list = ['1943____','3-d','3x5','4x4_offr','5lineoblique','5x7','5x8','64f1____','6x10','6x9','a_zooloo','acrobatic','advenger','alligator','alligator2','alphabet','aquaplan','arrows','asc_____','ascii___','assalt_m','asslt__m','avatar','b_m__200','banner','banner3','banner3-D','banner4','barbwire','basic','battle_s','battlesh','baz__bil','beer_pub','bell','big','bigchief','binary','block','brite','briteb','britebi','britei','broadway','bubble','bubble__','bubble_b','bulbhead','c1______','c2______','c_ascii_','c_consen','calgphy2','caligraphy','catwalk','caus_in_','char1___','char2___','char3___','char4___','charact1','charact2','charact3','charact4','charact5','charact6','characte','charset_','chartr','chartri','chunky','clb6x10','clb8x10','clb8x8','cli8x8','clr5x10','clr5x6','clr5x8','clr6x10','clr6x6','clr6x8','clr7x10','clr7x8','clr8x10','clr8x8','xbriteb','xbritebi','xbritei','xchartr','xchartri','xcour','xcourb','xcourbi','xcouri','xhelv','xhelvb','xhelvbi','xhelvi','xsans','xsansb','xsansbi','xsansi','xsbook','xsbookb','xsbookbi','xsbooki','xtimes','xtty','xttyb','yie-ar__','yie_ar_k','z-pilot_','zig_zag_','war_of_w','slant','isometric1','isometric2','isometric3','isometric4']
     for f in font_list:
         b = figlet_format(text=name, font=f)+"\n"+"\n"
